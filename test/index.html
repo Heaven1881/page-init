@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Page-Init Test</title>
+<link href="/test/index.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>This is Page-Init Test!</h1>
+
+<script id="persion-list" type="text/x-handlebars-template">
+{{#each persion}}
+    <p>name: {{name}}, age: {{age}}</p>
+{{/each}}
+</script>
+
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src="/pageinit.js"></script>
+<script src="/test/index.js"></script>
+</body>
+</html>
