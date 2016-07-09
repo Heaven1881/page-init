@@ -182,3 +182,11 @@ Page.Render._init = function() {
         }
     }
 };
+
+/**
+ * Page 的初始化函数
+ */
+Page.init = function() {
+    Page.Queries._init();
+    Page.Render._init();
+}
