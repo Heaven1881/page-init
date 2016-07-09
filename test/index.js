@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
-    Page.Queries._init();
-    Page.Render._init();
+    Page.init();
 
     // belows are test code
     console.info('get first a:' + Page.Queries.getFirst('a'));
